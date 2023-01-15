@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --c-dark :rgba(6, 6, 6, 0.927);
+    --c-brand : #098309;
+    --c-barnd-light : #1dbd1d;
+    --c-barnd-rgb: 13, 147, 13;
+    --transition: all 0.5 ease;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--c-barnd-light);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.btn-brand{
+    background-color: var(--c-barnd-light);
+    color: white;
+    transition: var(--transition);
+}
+.btn-barnd:hover{
+    background-color: var(--c-barnd-light);
+}
+.btn-rounded{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: var(--c-barnd-light);
+    margin: 12px auto 12px auto;
+}
+
+#hero{
+    background-color: var(--c-dark);
+    color: white;
+}
