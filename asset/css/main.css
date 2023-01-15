@@ -7,7 +7,7 @@
     --c-brand : #098309;
     --c-barnd-light : #1dbd1d;
     --c-barnd-rgb: 13, 147, 13;
-    --transition: all 0.5 ease;
+    --transition: all 0.5s ease;
 
 }
 
@@ -43,10 +43,19 @@ img{
     width: 100px;
     height: 4px;
     background-color: var(--c-barnd-light);
+    margin: 12px 0px;
+}
+.line.line-center{
     margin: 12px auto 12px auto;
+}
+.line:hover{
+    width:200px;
+    transition: var(--transition);
 }
 
 #hero{
-    background-color: var(--c-dark);
+    background:linear-gradient(rgba(0, 0, 0, 0.649),rgba(0, 0, 0, 0.665)),url('../img/photo_2023-01-15_20-32-37.jpg');
+    background-position: center;
+    background-size: cover;
     color: white;
 }
