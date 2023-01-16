@@ -4,11 +4,13 @@
 
 :root{
     --c-dark :rgba(6, 6, 6, 0.927);
-    --c-brand : #098309;
+    --c-brand : #51C6BA;
     --c-barnd-light : #1dbd1d;
     --c-barnd-rgb: 13, 147, 13;
     --transition: all 0.5s ease;
-
+}
+.c-brand{
+    background-color: var(--c-brand);
 }
 
 a{
