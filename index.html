@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="asset/css/main.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -363,25 +364,161 @@
 
     <!-- Login -->
     <section>
-      <div
-        class="row row-cols-xl-2 row-cols-1 bg-success min-vh-100 g-5 d-flex"
-      >
-        <div class="container mt-5">
-          <div class="col-md-8" id="login">
-            <p class="text-uppercase text-white fw-semibold fs-2">
-              Mari Bersihkan Kota Tasikmalaya Bersama
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">jfnskfnkdsfndksjnfkjdsnfkjdsn</div>
+      <div class="container-fluid bg-daftar mt-5">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col text-dark">
+            <div class="d-flex card cards">
+              <div class="image">
+                <img
+                  src="asset/img/gmb_daftar.jpeg"
+                  class="card-img-top imageats"
+                  alt="..."
+                />
+                <div>
+                  <h4 class="puts text-center putts">Silahkan Daftar
+                    <p class="">Silahkan Daftar Untuk Bergabung</p></div>
+                  </h4>
+                  
+              </div>
+
+              <div class="card-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputnama" class="form-label"
+                      >Nama Anda</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputNoWhatsapp" class="form-label"
+                      >Nomor Whatsapp</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputNoWhatsapp"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-login"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Daftar
+                  </button>
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button
+                            type="button"
+                            class="btn-close float-end"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                          <img
+                            src="asset\img\ilustation-otp.png"
+                            alt=""
+                            style="width: 495px"
+                          />
+                          <h3 class="text-center">Periksa OTP</h3>
+                          <h6 class="text-center">
+                            Masukan kode OTP yang dikirimkan ke nomor
+                            +123409854321
+                          </h6>
+
+                          <div class="row1 mt-3 mb-3">
+                            <div class="col">
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+                              <input
+                                type="text"
+                                maxlength="1"
+                                Onkeyup="ClickEvent(This,'Sec')"
+                                class="cols"
+                              />
+                            </div>
+                            <h6 class="mt-2">Tidak mendapatkan kode OTP ?</h6>
+                            <a href="#" class="" style="font-size: small">
+                              <p>Kirim kembali otp</p>
+                            </a>
+                          </div>
+                          <div>
+                            <button type="button" class="btn btn-verifikasi">
+                              Verifikasi & Proses
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- end login -->
-    <footer>ndskdnksnk</footer>
+    <footer class="fixed-buttom">
+      <div class="bg-copy">
+        <p class="text-center">Copyright@ Diskominfo Tasikmalaya Kota 2023</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

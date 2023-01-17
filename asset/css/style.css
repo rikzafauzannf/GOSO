@@ -36,6 +36,17 @@
         background-size: cover;
     
     }
+    
+    .cols{
+        width: 40px;
+        height: 50px;
+        border-radius: 16px;
+        text-align: center;
+        border-color: rgb(4, 164, 68);
+        border-style: double; 
+        outline: none;
+    }
+    
     .row1{
         text-align:center;
         margin:0 auto;
@@ -46,6 +57,11 @@
        display:inline-block;
        vertical-align: middle;
        float: none;
+    }
+    .cards{
+        border-color: rgb(4, 164, 68);
+        width: 18rem;
+        outline: none;
     }
     .imageats{
         position: relative;
@@ -62,13 +78,18 @@
         margin-top: 1rem;
         font-size: large;
     }
+    .putts{
+        position: absolute;
+        font-size: large;
+    }
     .puts{
         position: absolute;
         top: 20px;
         z-index: 3;
         color: #fff;
-        margin-left: 3rem;
-        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 3rem;
+        margin-bottom: 5rem;
         font-size: small;
     }
     .btn-close{
@@ -96,11 +117,18 @@
     .col-center{
         margin: 5rem;
     }
-    .col{
+    .col {
         width: 100%;
         display: block;
         margin-bottom: 20px;
       }
+      .cards{
+        border-color: rgb(4, 164, 68);
+        width: 18rem;
+        outline: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
       .modal-body{
           margin: 0;
           padding: 0;
@@ -113,6 +141,23 @@
           height: 40px; 
           color: #fff;
       }
+
+      .card.bg-login{
+          height: auto;
+          width: 100%;
+          background-image: url('asset/img/gmb_daftar.jpeg');
+          background-position: center;
+          background-size: cover;
+      }
+      .bg-pop{
+          width: 100%;
+          height: auto;
+          background-image: url('asset/img/amico.png');
+          background-position: center;
+          background-size: cover;
+      
+      }
+      
       .cols{
           width: 40px;
           height: 50px;
@@ -123,7 +168,76 @@
           outline: none;
           margin: 8px;
       }
-
+      
+      .row1{
+          text-align:center;
+          margin:0 auto;
+          background-size: cover;
+      }
+      
+      .row1 .col-md-1{
+         display:inline-block;
+         vertical-align: middle;
+         float: none;
+      }
+      .cards{
+          border-color: rgb(4, 164, 68);
+          width: 18rem;
+          outline: none;
+      }
+      .imageats{
+          position: relative;
+          z-index: 3;
+          top: 0px;
+      }
+      .pats{
+          position: absolute;
+          top: 20px;
+          z-index: 3;
+          color: #fff;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          margin-top: 1rem;
+          font-size: large;
+      }
+      .puts{
+          position: absolute;
+          top: 20px;
+          z-index: 3;
+          color: #fff;
+          margin-left: 3rem;
+          margin-top: 3rem;
+          font-size: small;
+      }
+      .btn-close{
+          text-align: end;
+          align-items: flex-end;
+      }
+      .btn-verifikasi{
+          background-color: rgb(4, 164, 68);
+          width: 100%;
+          width: 29rem;
+          color: white;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
+          
+      }
+      .btn-login{
+          background-color: rgb(4, 164, 68);
+          width: 100%;
+          width: 16rem;
+          color: white;
+          font-weight: bold;
+      }
+      .col-center{
+          margin: 5rem;
+      }
+      .modal-body{
+    margin: 0;
+    padding: 0;
+}
 .bg-ijo{
     background-color: rgb(4, 139, 58);
 }
@@ -136,7 +250,16 @@
     color:white
     
 }
+.bg-copy{
+    background-color: rgb(4, 139, 58);
+    background-size: cover;
+    margin: 0 auto;
+    width: auto;
+    height: 40px; 
+    color: #fff;
 }
+}
+
 
 
 body{
