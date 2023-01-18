@@ -67,6 +67,10 @@
         position: relative;
         z-index: 3;
         top: 0px;
+        display: flex;
+        display: -webkit-flex;
+        display: -o-flex;
+        display: -moz-flex;
     }
     .pats{
         position: absolute;
@@ -80,7 +84,25 @@
     }
     .putts{
         position: absolute;
-        font-size: large;
+        top: 20px;
+        z-index: 3;
+        color: #fff;
+        margin-left: 2rem;
+        margin-right: 3rem;
+        font-size: small;
+    }
+    .tkami{
+        font-size: 75px;
+        font-weight: 7rem;
+    }
+    .tkamt{
+        font-size: 25px;
+        font-weight: 5rem;
+        margin-top: 1rem;
+    }
+    .tkamr{
+        font-size: 30px;
+        font-weight: 3rem;
     }
     .puts{
         position: absolute;
@@ -98,13 +120,17 @@
     }
     .btn-verifikasi{
         background-color: rgb(4, 164, 68);
-        width: 100%;
-        width: 29rem;
         color: white;
         font-weight: bold;
+        display: flex;
+        display: -webkit-flex;
+        display: -o-flex;
+        display: -moz-flex;
         margin-bottom: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        justify-content: center;
+        width: 93%;
         
     }
     .btn-login{
@@ -213,17 +239,6 @@
           text-align: end;
           align-items: flex-end;
       }
-      .btn-verifikasi{
-          background-color: rgb(4, 164, 68);
-          width: 100%;
-          width: 29rem;
-          color: white;
-          font-weight: bold;
-          margin-bottom: 1rem;
-          margin-left: 1rem;
-          margin-right: 1rem;
-          
-      }
       .btn-login{
           background-color: rgb(4, 164, 68);
           width: 100%;
@@ -260,11 +275,9 @@
 }
 }
 
-
-
 body{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 
